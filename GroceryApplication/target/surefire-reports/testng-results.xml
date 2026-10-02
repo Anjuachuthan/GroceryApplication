@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-01T22:17:21 IST" name="Suite" finished-at="2026-10-01T22:17:39 IST" duration-ms="18086">
+    <groups>
+    </groups>
+    <test started-at="2026-10-01T22:17:21 IST" name="Test" finished-at="2026-10-01T22:17:39 IST" duration-ms="18086">
+      <class name="testScript.CategoryTest">
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testScript.CategoryTest@5b247367]" started-at="2026-10-01T22:17:21 IST" name="browserInitialization" finished-at="2026-10-01T22:17:24 IST" duration-ms="3533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialization -->
+        <test-method signature="verifyWhetherUserisabledtoAddCategory()[pri:0, instance:testScript.CategoryTest@5b247367]" started-at="2026-10-01T22:17:24 IST" name="verifyWhetherUserisabledtoAddCategory" finished-at="2026-10-01T22:17:32 IST" duration-ms="8269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherUserisabledtoAddCategory -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testScript.CategoryTest@5b247367]" started-at="2026-10-01T22:17:32 IST" name="closeBrowser" finished-at="2026-10-01T22:17:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherUserisabledtoAddCategory status=SUCCESS method=CategoryTest.verifyWhetherUserisabledtoAddCategory()[pri:0, instance:testScript.CategoryTest@5b247367] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testScript.CategoryTest@5b247367]" started-at="2026-10-01T22:17:32 IST" name="browserInitialization" finished-at="2026-10-01T22:17:36 IST" duration-ms="3025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialization -->
+        <test-method signature="verifyWhetherUserisabledtoSearchtheNewlyaddedCategory()[pri:0, instance:testScript.CategoryTest@5b247367]" started-at="2026-10-01T22:17:36 IST" name="verifyWhetherUserisabledtoSearchtheNewlyaddedCategory" finished-at="2026-10-01T22:17:39 IST" duration-ms="3155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherUserisabledtoSearchtheNewlyaddedCategory -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testScript.CategoryTest@5b247367]" started-at="2026-10-01T22:17:39 IST" name="closeBrowser" finished-at="2026-10-01T22:17:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherUserisabledtoSearchtheNewlyaddedCategory status=SUCCESS method=CategoryTest.verifyWhetherUserisabledtoSearchtheNewlyaddedCategory()[pri:0, instance:testScript.CategoryTest@5b247367] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScript.CategoryTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
